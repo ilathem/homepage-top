@@ -246,3 +246,9 @@ footer {
   gap: 4rem;
   padding: 4rem 0;
 }
+
+.closing-img {
+  width: 100vw;
+  object-fit: cover;
+  height: 30vh;
+}
