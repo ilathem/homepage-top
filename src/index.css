@@ -213,3 +213,36 @@ p {
 footer {
   background-color: #0891b2;
 }
+
+.contact-me {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em;
+  font-size: 3rem;
+}
+
+.contact-message {
+  margin-top: 3rem;
+}
+
+.contact-addr,
+.other-contact {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  opacity: 0.9;
+}
+
+.phoneNum {
+  margin-bottom: 1rem;
+}
+
+.contact-me-links {
+  color: black;
+  font-size: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 0;
+}
