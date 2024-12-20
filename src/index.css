@@ -252,3 +252,14 @@ footer {
   object-fit: cover;
   height: 30vh;
 }
+@media screen and (max-width: 424px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* @media screen and (min-width: 425px) { */
+/*   body { */
+/*     background-color: orange; */
+/*   } */
+/* } */
