@@ -50,6 +50,10 @@ p {
   padding: 1em;
 }
 
+.spacer {
+  display: none;
+}
+
 .about-me-img {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
@@ -61,7 +65,7 @@ p {
 .about-me-name {
   position: absolute;
   bottom: 30px;
-  font-size: 32px;
+  font-size: 12vw;
   text-shadow: 0px 5px 10px gray;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000, 0 10px 10px gray;
@@ -69,17 +73,19 @@ p {
 }
 
 .about-me-text {
-  /* border: 2px solid red; */
-  padding: 6em 4em 0 4em;
+  width: 90vw;
+  margin-top: 1rem;
 }
 
-.about-me-text > h1 {
+.about-me-text > h2 {
   font-weight: 500;
+  font-size: 10vw;
   text-align: center;
 }
 
 .about-me-text > p {
   line-height: 1.5;
+  font-size: 1.25rem;
   opacity: 0.8;
 }
 
@@ -97,9 +103,12 @@ p {
 }
 
 .social-links {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  font-size: 10vw;
+  margin-top: 1rem;
+}
+
+.social-links > i {
+  padding: .5rem;
 }
 
 /* Projects */
@@ -118,10 +127,6 @@ p {
 .proj {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
   margin-bottom: 12em;
-}
-
-.social-links > i {
-  padding: 2rem 2rem;
 }
 
 .proj-img {
