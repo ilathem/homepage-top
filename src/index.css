@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Basic Styling */
 
@@ -15,12 +15,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Player Display';
+  font-family: "Player Display";
   font-weight: normal;
 }
 
 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 /* About Me Section */
@@ -56,7 +56,8 @@ p {
 
 .about-me-img {
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   height: 100%;
   object-fit: cover;
@@ -67,8 +68,12 @@ p {
   bottom: 30px;
   font-size: 12vw;
   text-shadow: 0px 5px 10px gray;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000, 0 10px 10px gray;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 10px 10px gray;
   color: white;
 }
 
@@ -77,13 +82,13 @@ p {
   margin-top: 1rem;
 }
 
-.about-me-text > h2 {
+.about-me-text>h2 {
   font-weight: 500;
   font-size: 10vw;
   text-align: center;
 }
 
-.about-me-text > p {
+.about-me-text>p {
   line-height: 1.5;
   font-size: 1.25rem;
   opacity: 0.8;
@@ -107,31 +112,41 @@ p {
   margin-top: 1rem;
 }
 
-.social-links > i {
-  padding: .5rem;
+.social-links>i {
+  padding: 0.5rem;
 }
 
 /* Projects */
 
 .my-work {
-  padding-top: 16em;
+  margin-top: 16em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 2px solid red; */
 }
 
-.my-work > h2 {
+.my-work>h2 {
   padding-bottom: 0.5em;
+  font-size: 3rem;
 }
 
 .proj {
-  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
-  margin-bottom: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid green; */
+  width: 90%;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 6px 6px 1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px 1px;
+  margin-bottom: 4em;
 }
 
 .proj-img {
-  height: 850px;
-  width: 850px;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  width: 100%;
   font-weight: normal;
   background-color: #7c75ca;
   display: flex;
@@ -139,10 +154,10 @@ p {
   justify-content: center;
 }
 
-.proj-img > p {
+.proj-img>p {
   color: white;
   text-align: center;
-  font-family: 'Player Display';
+  font-family: "Player Display";
   width: 75%;
 }
 
@@ -164,9 +179,9 @@ p {
 }
 
 .proj-text {
-  width: 850px;
-  height: 500px;
-  padding: 4rem;
+  /* border: 2px solid purple; */
+  overflow: scroll;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,23 +192,33 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-top: 1rem;
   padding-left: 2rem;
-  font-family: 'Playfair Display';
+  padding-right: 1rem;
+  font-family: "Playfair Display";
 }
 
-.link-icon {
-  width: 4rem;
+.proj-header h3 {
+  font-size: 1.5rem;
 }
 
 .proj-links {
   display: flex;
-  gap: 4rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.link-icon,
+.proj-links i {
+  width: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .proj-desc {
-  padding-top: 2rem;
+  padding: 1rem 1rem 4rem 1rem;
   opacity: 0.9;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 /* Footer */
@@ -264,7 +289,8 @@ footer {
     flex-basis: 50%;
     padding: 6em 4em;
     /* border: 2px solid green; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
       rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
@@ -275,12 +301,12 @@ footer {
     /* background-color: white; */
   }
 
-  .about-me-text > h2 {
+  .about-me-text>h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
 
-  .about-me-text > p {
+  .about-me-text>p {
     font-size: 1.25rem;
   }
 
@@ -297,7 +323,8 @@ footer {
     /* left: -50px; */
     max-width: 425px;
     float: left;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
       rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
