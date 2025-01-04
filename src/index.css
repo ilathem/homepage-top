@@ -339,6 +339,7 @@ footer {
   .my-work {
     margin-top: 0;
     width: 80vw;
+    margin-bottom: 8rem;
   }
 
   .my-work > h2 {
@@ -349,6 +350,10 @@ footer {
   .proj {
     width: calc(40vw - 1rem);
     margin-bottom: 3rem;
+  }
+
+  .proj-img > p {
+    font-size: 6vw;
   }
 
   .projects-container {
@@ -363,13 +368,50 @@ footer {
   }
 
   .proj-img {
-    height: 80%;
+    aspect-ratio: 3/2;
   }
 
   .proj-desc {
     flex-grow: 1;
   }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-me {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .contact-me > h2 {
+    text-align: left;
+  }
+
+  .contact-message {
+    font-size: 1.25rem;
+  }
+
+  .contact-addr {
+    font-size: 1.25rem;
+  }
+  .other-contact {
+    font-size: 1.25rem;
+  }
+
+  .contact-me-links {
+    justify-content: start;
+  }
+
+  .closing-img {
+    width: 40vw;
+    margin: 3rem;
+    height: auto;
+  }
 }
+
+/* TODO: icons for contact phone and email */
 
 @media screen and (min-width: 1024px) {
   body {
