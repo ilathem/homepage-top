@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Basic Styling */
 
@@ -15,12 +15,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Player Display";
+  font-family: 'Player Display';
   font-weight: normal;
 }
 
 p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 /* About Me Section */
@@ -56,8 +56,7 @@ p {
 
 .about-me-img {
   width: 100%;
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   height: 100%;
   object-fit: cover;
@@ -68,12 +67,8 @@ p {
   bottom: 30px;
   font-size: 12vw;
   text-shadow: 0px 5px 10px gray;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000,
-    0 10px 10px gray;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000, 0 10px 10px gray;
   color: white;
 }
 
@@ -82,13 +77,13 @@ p {
   margin-top: 1rem;
 }
 
-.about-me-text>h2 {
+.about-me-text > h2 {
   font-weight: 500;
   font-size: 10vw;
   text-align: center;
 }
 
-.about-me-text>p {
+.about-me-text > p {
   line-height: 1.5;
   font-size: 1.25rem;
   opacity: 0.8;
@@ -112,7 +107,7 @@ p {
   margin-top: 1rem;
 }
 
-.social-links>i {
+.social-links > i {
   padding: 0.5rem;
 }
 
@@ -126,7 +121,7 @@ p {
   /* border: 2px solid red; */
 }
 
-.my-work>h2 {
+.my-work > h2 {
   padding-bottom: 0.5em;
   font-size: 3rem;
 }
@@ -137,8 +132,7 @@ p {
   align-items: center;
   /* border: 2px solid green; */
   width: 90%;
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 6px 6px 1px,
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 6px 1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px 1px;
   margin-bottom: 4em;
 }
@@ -154,10 +148,10 @@ p {
   justify-content: center;
 }
 
-.proj-img>p {
+.proj-img > p {
   color: white;
   text-align: center;
-  font-family: "Player Display";
+  font-family: 'Player Display';
   width: 75%;
 }
 
@@ -195,7 +189,7 @@ p {
   margin-top: 1rem;
   padding-left: 2rem;
   padding-right: 1rem;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
 }
 
 .proj-header h3 {
@@ -218,7 +212,7 @@ p {
 .proj-desc {
   padding: 1rem 1rem 4rem 1rem;
   opacity: 0.9;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 /* Footer */
@@ -234,18 +228,24 @@ footer {
   padding: 2em 2em;
 }
 
+.contact-me h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 .contact-message {
-  margin-top: 3rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .contact-addr,
 .other-contact {
-  margin-top: 5rem;
   opacity: 0.9;
+  margin-top: 1.5rem;
 }
 
 .phoneNum {
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
 .contact-me-links {
@@ -253,14 +253,17 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 4rem;
-  padding: 4rem 0;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  gap: 2rem;
 }
 
 .closing-img {
-  width: 100vw;
   object-fit: cover;
-  height: 30vh;
+  object-position: 65% 50%;
+  height: 600px;
+  width: 100vw;
+  margin: 0;
 }
 
 @media screen and (min-width: 425px) {
@@ -289,8 +292,7 @@ footer {
     flex-basis: 50%;
     padding: 6em 4em;
     /* border: 2px solid green; */
-    box-shadow:
-      rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
       rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
@@ -301,12 +303,12 @@ footer {
     /* background-color: white; */
   }
 
-  .about-me-text>h2 {
+  .about-me-text > h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
 
-  .about-me-text>p {
+  .about-me-text > p {
     font-size: 1.25rem;
   }
 
@@ -323,8 +325,7 @@ footer {
     /* left: -50px; */
     max-width: 425px;
     float: left;
-    box-shadow:
-      rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
       rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
 
