@@ -244,8 +244,16 @@ footer {
   margin-top: 1.5rem;
 }
 
-.phoneNum {
-  margin-top: 1.5rem;
+.phoneIcon,
+.emailIcon {
+  display: none;
+}
+
+.phoneDiv,
+.emailDiv {
+  display: flex;
+  align-items: center;
+  height: 30px;
 }
 
 .contact-me-links {
@@ -409,9 +417,22 @@ footer {
     margin: 3rem;
     height: auto;
   }
-}
 
-/* TODO: icons for contact phone and email */
+  .phoneDiv,
+  .emailDiv {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+  }
+
+  .phoneIcon,
+  .emailIcon {
+    display: block;
+    width: 4vw;
+    color: white;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   body {
