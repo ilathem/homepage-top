@@ -544,4 +544,32 @@ footer {
   .proj-text p {
     font-size: 1.25rem;
   }
+  
+  footer {
+    width: 80%;
+    padding: 4rem 0;
+    justify-content: space-between;
+  }
+  
+  .footerWrapper {
+    width: 100vw;
+    background-color: #0891b2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .contact-me {
+    width: 33vw;
+    /* border: 2px solid green; */
+  }
+  
+  .contact-me p {
+    font-size: 1.25rem;
+  }
+  
+  .closing-img {
+    margin: 0;
+    flex: 1;
+  }
 }
